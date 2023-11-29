@@ -95,8 +95,8 @@
 	<profiles>
 		<profile>
 			<build>
-				<pluginmanagement>
-					<pulgins>
+				<pluginManagement>
+					<plugins>
 						<plugin>
 							<groupId>org.apache.maven.plugins</groupId>
 							<artifactId>maven-surefire-plugin</artifactId>
@@ -107,8 +107,8 @@
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
-					</pulgins>
-				</pluginmanagement>
+					</plugins>
+				</pluginManagement>
 			</build>
 		</profile>
 	</profiles>
