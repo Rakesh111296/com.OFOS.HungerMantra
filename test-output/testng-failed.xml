@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.GenricUtilities.Listener_Implimentation"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test">
+        <methods>
+          <include name="config_BC"/>
+          <include name="config_AM"/>
+          <include name="confif_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="menuToDashBoard"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test -->
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu">
+        <methods>
+          <include name="config_BC"/>
+          <include name="config_AM"/>
+          <include name="confif_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="admin_EditMenu"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu -->
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test">
+        <methods>
+          <include name="config_BC"/>
+          <include name="config_AM"/>
+          <include name="confif_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="admin_Add_Edit_Menu"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
