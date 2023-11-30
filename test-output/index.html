@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\dell\eclipse-workspace\com.HungerMantra\Batch1.xml</span>
+                    <span>C:\Users\dell\eclipse-workspace\com.HungerMantra\batchjenkins.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,31 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test" class="method navigator-link" hash-for-method="admin_Add_Edit_Menu">admin_Add_Edit_Menu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu" class="method navigator-link" hash-for-method="admin_EditMenu">admin_EditMenu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test" class="method navigator-link" hash-for-method="menuToDashBoard">menuToDashBoard</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -129,9 +129,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -140,24 +140,13 @@
                   <a name="admin_EditMenu">
                   </a> <!-- admin_EditMenu -->
                   <span class="method-name">admin_EditMenu</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [New Dish Added Successfully] but found [×
-New Dish Added Successfully.]
-	at PageObjectRepo.Admin_Add_Menu_Page.checkConfirm(Admin_Add_Menu_Page.java:96)
-	at com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu.admin_EditMenu(Admin_EditMenu.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -166,24 +155,13 @@ New Dish Added Successfully.]
                   <a name="menuToDashBoard">
                   </a> <!-- menuToDashBoard -->
                   <span class="method-name">menuToDashBoard</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [New Dish Added Successfully.] but found [×
-New Dish Added Successfully.]
-	at PageObjectRepo.Admin_Add_Menu_Page.checkConfirm(Admin_Add_Menu_Page.java:96)
-	at com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test.menuToDashBoard(Menu_To_Dashboard_Test.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -192,35 +170,21 @@ New Dish Added Successfully.]
                   <a name="admin_Add_Edit_Menu">
                   </a> <!-- admin_Add_Edit_Menu -->
                   <span class="method-name">admin_Add_Edit_Menu</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [New Restaurant Added Successfully.] but found [×
-New Restaurant Added Successfully.]
-	at PageObjectRepo.Admin_Add_Restaurant_Page.checkConfirmMessage(Admin_Add_Restaurant_Page.java:91)
-	at com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test.admin_Add_Edit_Menu(Admin_EditDashboard_to_AllRestaurants_Intigration_Test.java:49)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\dell\eclipse-workspace\com.HungerMantra\Batch1.xml</span>
+            <span class="header-content">C:\Users\dell\eclipse-workspace\com.HungerMantra\batchjenkins.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.GenricUtilities.Listener_Implimentation&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test&quot;/&gt;
       &lt;class name=&quot;com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test&quot;/&gt;
@@ -268,20 +232,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'admin_Add_Edit_Menu')
 data.setCell(0, 2, 'com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test')
-data.setCell(0, 3, 8953);
+data.setCell(0, 3, 12937);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'menuToDashBoard')
-data.setCell(1, 2, 'com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test')
-data.setCell(1, 3, 6406);
+data.setCell(1, 1, 'admin_EditMenu')
+data.setCell(1, 2, 'com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu')
+data.setCell(1, 3, 12367);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'admin_EditMenu')
-data.setCell(2, 2, 'com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu')
-data.setCell(2, 3, 3564);
+data.setCell(2, 1, 'menuToDashBoard')
+data.setCell(2, 2, 'com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test')
+data.setCell(2, 3, 7360);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -292,27 +256,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">menuToDashBoard</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">menuToDashBoard---------------->Execution Starts Here----</span>
-                <span class="reporter-method-output">menuToDashBoard-----------TestScript is FAIL</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">admin_EditMenu</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">admin_EditMenu---------------->Execution Starts Here----</span>
-                <span class="reporter-method-output">admin_EditMenu-----------TestScript is FAIL</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">admin_Add_Edit_Menu</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">admin_Add_Edit_Menu---------------->Execution Starts Here----</span>
-                <span class="reporter-method-output">admin_Add_Edit_Menu-----------TestScript is FAIL</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -353,82 +296,76 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">config_BC</span>
-                <span class="method-start">945 ms</span>
+                <span class="method-start">426 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">config_BM</span>
-                <span class="method-start">4502 ms</span>
+                <span class="method-start">4096 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">admin_Add_Edit_Menu</span>
-                <span class="method-start">5307 ms</span>
+                <span class="method-start">4740 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">config_AM</span>
-                <span class="method-start">14601 ms</span>
+                <span class="method-start">17687 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">config_AC</span>
-                <span class="method-start">14949 ms</span>
+                <span class="method-start">18469 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">config_BC</span>
-                <span class="method-start">15216 ms</span>
+                <span class="method-start">18838 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">config_BM</span>
-                <span class="method-start">16772 ms</span>
+                <span class="method-start">20536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">menuToDashBoard</span>
-                <span class="method-start">17395 ms</span>
+                <span class="method-start">21121 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">config_AM</span>
-                <span class="method-start">24098 ms</span>
+                <span class="method-start">28483 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">config_AC</span>
-                <span class="method-start">24397 ms</span>
+                <span class="method-start">29134 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenu</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">config_BC</span>
-                <span class="method-start">24661 ms</span>
+                <span class="method-start">29378 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">config_BM</span>
-                <span class="method-start">26491 ms</span>
+                <span class="method-start">31047 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">admin_EditMenu</span>
-                <span class="method-start">27064 ms</span>
+                <span class="method-start">31632 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">config_AM</span>
-                <span class="method-start">30888 ms</span>
+                <span class="method-start">44000 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">config_AC</span>
-                <span class="method-start">31235 ms</span>
+                <span class="method-start">44852 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">config_AS</span>
-                <span class="method-start">32172 ms</span>
+                <span class="method-start">45357 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
