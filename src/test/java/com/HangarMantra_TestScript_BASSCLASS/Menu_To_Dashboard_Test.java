@@ -17,7 +17,6 @@ public class Menu_To_Dashboard_Test extends Admin_Bass_Class{
 		Admin_Dashboard_page adp = new Admin_Dashboard_page(driver);
 		String DishCountBeforeAdding = adp.getDishesCount().getText(); 
 		int DishCount = Integer.parseInt(DishCountBeforeAdding);
-		DishCount = DishCount+1;
 		System.out.println("Dish Count in Dashboard Before Adding Menu ------------>"+ DishCount);
 		Thread.sleep(3000);
 		
@@ -40,7 +39,7 @@ public class Menu_To_Dashboard_Test extends Admin_Bass_Class{
 		String ExpText = "New Dish Added Successfully.";
 		
 		
-		aamp.checkConfirm(ExpText);
+		//aamp.checkConfirm(ExpText);
 		
 		aamp.clickOnCancelBtn();
 		

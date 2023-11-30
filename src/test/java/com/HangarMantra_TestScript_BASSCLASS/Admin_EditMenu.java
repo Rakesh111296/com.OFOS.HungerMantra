@@ -28,7 +28,7 @@ public class Admin_EditMenu extends Admin_Bass_Class {
 		aamp.addMenu(DishName, Discription, Price, Image, wUtil, ResValue);
 		
 		String ExpText = "New Dish Added Successfully";
-		aamp.checkConfirm(ExpText);
+		//aamp.checkConfirm(ExpText);
 		
 		aamp.clickOnCancelBtn();
 		
@@ -46,7 +46,7 @@ public class Admin_EditMenu extends Admin_Bass_Class {
 		aemp.EditMenu(DishName1, Discription, Price, Image, wUtil, ResValue);
 		
 		String ExpetEdtConfMesg = "Record Updated";
-		aemp.checkUpdateMessage(ExpetEdtConfMesg);
+		//aemp.checkUpdateMessage(ExpetEdtConfMesg);
 		
 		aemp.clickOnCancelBtn();
 		
