@@ -8,7 +8,7 @@ import PageObjectRepo.Admin_Add_Menu_Page;
 import PageObjectRepo.Admin_Dashboard_page;
 import PageObjectRepo.Admin_Edit_Menu_Page;
 
-public class Admin_EditMenu extends Admin_Bass_Class {
+public class Admin_EditMenuTest extends Admin_Bass_Class {
 
 	@Test
 	public void admin_EditMenu() throws Throwable {
