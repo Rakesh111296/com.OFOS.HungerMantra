@@ -115,7 +115,7 @@
 		
 		
 		<profile>
-			<id>batch1</id>
+			<id>B1</id>
 			<build>
 				<pluginManagement>
 					<plugins>

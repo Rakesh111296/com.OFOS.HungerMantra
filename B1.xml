@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Admin_EditDashboard_to_AllRestaurants_Intigration_Test"/>
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Menu_To_Dashboard_Test"/>
+      <class name="com.HangarMantra_TestScript_BASSCLASS.Admin_EditMenuTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
