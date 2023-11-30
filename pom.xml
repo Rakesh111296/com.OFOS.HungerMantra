@@ -94,6 +94,7 @@
 
 	<profiles>
 		<profile>
+			<id>batch</id>
 			<build>
 				<pluginManagement>
 					<plugins>
