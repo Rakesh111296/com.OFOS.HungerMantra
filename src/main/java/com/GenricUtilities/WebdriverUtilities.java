@@ -73,7 +73,7 @@ public class WebdriverUtilities {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sec));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
-
+		
 	}
 
 	/**
@@ -96,6 +96,7 @@ public class WebdriverUtilities {
 	public void handleDropDown(WebElement element, String Value) {
 		Select sc = new Select(element);
 		sc.selectByValue(Value);
+		
 	}
 
 	/**
@@ -249,6 +250,7 @@ public class WebdriverUtilities {
 	 */
 	public void switchToWindow(WebDriver driver, String NameOrID) {
 		driver.switchTo().window(NameOrID);
+		
 	}
 	
 	
